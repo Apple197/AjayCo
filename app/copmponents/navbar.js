@@ -42,6 +42,21 @@ const navbar = () => {
           </ul>
         </nav>
 
+        {/* mobile navbar */}
+
+          <div className="mobile-menu-section">
+            <div className="container px-4">
+            <ul>
+              <li>home</li>
+              <li>home</li>
+              <li>home</li>
+              <li>home</li>
+              <li>home</li>
+            </ul>
+
+            </div>
+          </div>
+
         {/* CTA */}
         <div className="hidden md:flex gap-5 px-5 text-lg border rounded-lg group hover:bg-blue-700 cursor-pointer">
           <Gi3dGlasses
