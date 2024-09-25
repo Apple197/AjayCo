@@ -5,18 +5,16 @@ import { BsCash } from "react-icons/bs";
 
 const navbar = () => {
   return (
-    <div className="container-fluid  px-10  ">
+    <div className="container  mx-auto px-5 py-2   ">
       <div id="nav-bar  " className="flex justify-between py-3">
         <div className="logo ">
           <h2 className="font-medium text-2xl  text-black ">AjayPoddar</h2>
         </div>
-
         {/* //humber menu */}
 
         <div className="hamburger  md:hidden">
           <MdMenu size={"24px"} className="text-black" />
         </div>
-
         <nav className="navbar hidden md:flex">
           <ul className="flex justify-between gap-10 text-black text-lg">
             <li>
@@ -41,11 +39,9 @@ const navbar = () => {
             </li>
           </ul>
         </nav>
-
         {/* mobile navbar */}
-
-          <div className="mobile-menu-section">
-            <div className="container px-4">
+        <div className=" hidden mobile-menu-section">
+          <div className="container px-4">
             <ul>
               <li>home</li>
               <li>home</li>
@@ -53,10 +49,8 @@ const navbar = () => {
               <li>home</li>
               <li>home</li>
             </ul>
-
-            </div>
           </div>
-
+        </div>
         {/* CTA */}
         <div className="hidden md:flex gap-5 px-5 text-lg border rounded-lg group hover:bg-blue-700 cursor-pointer">
           <Gi3dGlasses
