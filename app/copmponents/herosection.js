@@ -1,12 +1,14 @@
 import React from "react";
 import Link from "next/link";
 
-const herosection = () => {
+const HeroSection = () => {
   return (
-    <div className="container mx-auto px-5 my-10">
-      <div className="grid gap-10 lg:grid-cols-2  h-[80vh]">
-        <div className="md:my-20">
-          <h2 className="text-4xl font-extrabold mb-5  text-black md:text-6xl">
+    <div className="container mx-auto px-5 md:my-10">
+      <div className="grid gap-10 lg:grid-cols-2">
+        <div className="md:mt-10 flex flex-col justify-center">
+          {" "}
+          {/* Centering the content vertically */}
+          <h2 className="text-4xl font-extrabold mb-5 text-black md:text-6xl">
             Building digital products & brands.
           </h2>
           <p className="text-black text-lg leading-6">
@@ -17,7 +19,7 @@ const herosection = () => {
           <div className="flex flex-col md:flex-row mt-10 gap-2 items-center">
             <Link
               href="#"
-              className="flex items-center justify-center  bg-white text-black px-6 py-3 rounded-md shadow-md hover:bg-gray-100 transition duration-300 ease-in-out w-full md:w-auto cursor-pointer"
+              className="flex items-center justify-center bg-white text-black px-6 py-3 rounded-md shadow-md hover:bg-gray-100 transition duration-300 ease-in-out w-full md:w-auto cursor-pointer"
             >
               <img
                 src="/assets/github.svg"
@@ -39,12 +41,16 @@ const herosection = () => {
             </Link>
           </div>
         </div>
-        <div className=" ">
-          <img src="/assets/heroimage.png" alt="" />
+        <div>
+          <img
+            src="/assets/heroimage.png"
+            alt="Hero"
+            className="w-full h-auto"
+          />
         </div>
       </div>
     </div>
   );
 };
 
-export default herosection;
+export default HeroSection;
