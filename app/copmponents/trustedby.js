@@ -2,7 +2,7 @@ import React from "react";
 import Link from "next/link";
 const TrustedBy = () => {
   return (
-    <div className="trustedby container  px-5  py-20  mx-auto">
+    <div className="trustedby container  px-5  py-[7rem]  mx-auto">
       <div className="grid md:grid-cols-2 gap-10">
         <div className="left  pr-10 ">
           <h4 className="text-2xl  text-violet-600 font-bold">
@@ -43,7 +43,7 @@ const TrustedBy = () => {
 
         <div className="right">
           <div className="grid grid-cols-2 gap-6">
-            <div className="card bg-white p-4 rounded-lg shadow-md">
+            <div className="card   p-4 rounded-lg ">
               <svg
                 class="w-10 h-10 mb-2 text-purple-600 md:w-12 md:h-12 dark:text-purple-500"
                 fill="currentColor"
@@ -60,7 +60,7 @@ const TrustedBy = () => {
               </p>
             </div>
 
-            <div className="card bg-white p-4 rounded-lg shadow-md">
+            <div className="card   p-4 rounded-lg  ">
               <svg
                 class="w-10 h-10 mb-2 text-purple-600 md:w-12 md:h-12 dark:text-purple-500"
                 fill="currentColor"
@@ -77,7 +77,7 @@ const TrustedBy = () => {
               </p>
             </div>
 
-            <div className="card bg-white p-4 rounded-lg shadow-md">
+            <div className="card   p-4 rounded-lg  ">
               <svg
                 class="w-10 h-10 mb-2 text-purple-600 md:w-12 md:h-12 dark:text-purple-500"
                 fill="currentColor"
@@ -98,7 +98,7 @@ const TrustedBy = () => {
               </p>
             </div>
 
-            <div className="card bg-white p-4 rounded-lg shadow-md">
+            <div className="card   p-4 rounded-lg  ">
               <svg
                 class="w-10 h-10 mb-2 text-purple-600 md:w-12 md:h-12 dark:text-purple-500"
                 fill="currentColor"
