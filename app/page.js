@@ -1,5 +1,3 @@
-
-
 import Navbar from "./copmponents/navbar";
 import Herosection from "./copmponents/herosection";
 import Logos from "./copmponents/logos";
@@ -8,6 +6,8 @@ import Toolinfo2 from "./copmponents/toolinfo2";
 import Trustedby from "./copmponents/trustedby";
 import Pricing from "./copmponents/pricing";
 import Accordian from "./copmponents/accordian";
+import Trial from "./copmponents/trial";
+import Footer from "./copmponents/footer"
 
 export default function Home() {
   return (
@@ -20,6 +20,8 @@ export default function Home() {
       <Trustedby />
       <Pricing />
       <Accordian />
+      <Trial />
+      <Footer/>
     </>
   );
 }
