@@ -10,7 +10,7 @@ const Accordion = () => {
   };
 
   return (
-    <div className="w-full max-w-4xl mx-auto my-[5rem]">
+    <div className="w-full max-w-4xl  lg:max-w-6xl mx-auto my-[5rem]">
       <h3 className="text-3xl text-center font-bold text-black mb-6">
         Frequently Asked Questions
       </h3>

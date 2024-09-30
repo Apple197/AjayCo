@@ -7,7 +7,7 @@ import Trustedby from "./copmponents/trustedby";
 import Pricing from "./copmponents/pricing";
 import Accordian from "./copmponents/accordian";
 import Trial from "./copmponents/trial";
-import Footer from "./copmponents/footer"
+import Footer from "./copmponents/footer";
 
 export default function Home() {
   return (
@@ -21,7 +21,7 @@ export default function Home() {
       <Pricing />
       <Accordian />
       <Trial />
-      <Footer/>
+      <Footer />
     </>
   );
 }
