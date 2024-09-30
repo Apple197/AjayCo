@@ -36,7 +36,7 @@ const Navbar = () => {
       <div className="container mx-auto px-5 py-2">
         <div id="nav-bar" className="flex justify-between py-3 items-center">
           <div className="logo">
-            <h2 className="font-medium text-2xl text-black">AjayPoddar</h2>
+            <h2 className="font-medium text-2xl text-black">Ajay & co</h2>
           </div>
 
           {/* Hamburger menu for mobile */}

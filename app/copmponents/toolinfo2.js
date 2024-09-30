@@ -6,7 +6,7 @@ const toolinfo2 = () => {
     <div className="tools-section bg-custom-gray w-full">
       <div className="container px-5 mx-auto md:py-10">
         <div className="grid md:grid-cols-2 lg:gap-20  ">
-          <div className="left mt-5 order-2 md:order-1">
+          <div className="left mt-5 order-2 lg:order-1">
             <img src="/assets/toolsinfo2.png" alt="Tools" />
           </div>
           <div className="right lg:pt-16 ">

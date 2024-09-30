@@ -3,7 +3,7 @@ import React from "react";
 const footer = () => {
   return (
     <footer className="bg-white">
-      <div className="mx-auto max-w-screen-2xl px-4 py-16 sm:px-6 lg:px-8">
+      <div className="mx-auto max-w-screen-xl px-4 py-16 sm:px-1 lg:px-8">
         <div className="lg:flex lg:items-start lg:gap-8">
           <div className="text-violet-600">
             <svg
@@ -19,7 +19,7 @@ const footer = () => {
             </svg>
           </div>
 
-          <div className="mt-8 grid grid-cols-2 gap-8 lg:mt-0 lg:grid-cols-5 lg:gap-y-16">
+          <div className="mt-8 grid grid-cols-1 gap-8 lg:mt-0 lg:grid-cols-5 lg:gap-y-16">
             <div className="col-span-2">
               <div>
                 <h2 className="text-2xl font-bold text-gray-900">
@@ -56,9 +56,9 @@ const footer = () => {
             </div>
 
             <div className="col-span-2 sm:col-span-1">
-              <p className="font-medium text-gray-900">Services</p>
+              <p className="font-medium text-gray-900 text-xl">Services</p>
 
-              <ul className="mt-6 space-y-4 text-sm">
+              <ul className="mt-6 space-y-4 text-md">
                 <li>
                   <a
                     href="#"
@@ -112,9 +112,9 @@ const footer = () => {
             </div>
 
             <div className="col-span-2 sm:col-span-1">
-              <p className="font-medium text-gray-900">Company</p>
+              <p className="font-medium text-gray-900 text-xl">Company</p>
 
-              <ul className="mt-6 space-y-4 text-sm">
+              <ul className="mt-6 space-y-4 text-md">
                 <li>
                   <a
                     href="#"
@@ -148,9 +148,9 @@ const footer = () => {
             </div>
 
             <div className="col-span-2 sm:col-span-1">
-              <p className="font-medium text-gray-900">Helpful Links</p>
+              <p className="font-medium text-gray-900 text-xl">Helpful Links</p>
 
-              <ul className="mt-6 space-y-4 text-sm">
+              <ul className="mt-6 space-y-4 text-md">
                 <li>
                   <a
                     href="#"
@@ -183,10 +183,10 @@ const footer = () => {
               </ul>
             </div>
 
-            <div className="col-span-2 sm:col-span-1">
-              <p className="font-medium text-gray-900">Legal</p>
+            <div className="col-span-2 sm:col-span-1  ">
+              <p className="font-medium text-gray-900 text-xl ">Legal</p>
 
-              <ul className="mt-6 space-y-4 text-sm">
+              <ul className="mt-6 space-y-4 text-md">
                 <li>
                   <a
                     href="#"
@@ -230,9 +230,9 @@ const footer = () => {
             </div>
 
             <div className="col-span-2 sm:col-span-1">
-              <p className="font-medium text-gray-900">Downloads</p>
+              <p className="font-medium text-gray-900 text-xl">Downloads</p>
 
-              <ul className="mt-6 space-y-4 text-sm">
+              <ul className="mt-6 space-y-4 text-md">
                 <li>
                   <a
                     href="#"
@@ -255,7 +255,7 @@ const footer = () => {
               </ul>
             </div>
 
-            <ul className="col-span-2 flex justify-start gap-6 lg:col-span-5 lg:justify-end">
+            <ul className="col-span-2 flex justify-start gap-12 lg:col-span-5 lg:justify-end">
               <li>
                 <a
                   href="#"
@@ -377,11 +377,11 @@ const footer = () => {
 
         <div className="mt-8 border-t border-gray-100 pt-8">
           <div className="sm:flex sm:justify-between">
-            <p className="text-xs text-gray-500">
-              &copy; 2024. Ajay software & co. All rights reserved.
+            <p className="text-md text-gray-500">
+              &copy; 2024. Ajay & co. All rights reserved.
             </p>
 
-            <ul className="mt-8 flex flex-wrap justify-start gap-4 text-xs sm:mt-0 lg:justify-end">
+            <ul className="mt-8 flex flex-wrap justify-start gap-8 text- sm:mt-0 lg:justify-end">
               <li>
                 <a
                   href="#"
