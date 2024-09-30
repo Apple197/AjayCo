@@ -16,7 +16,7 @@ export default function Home() {
       <Herosection />
       <Logos />
       <Tools />
-      <Toolinfo2 />
+
       <Trustedby />
       <Pricing />
       <Accordian />
