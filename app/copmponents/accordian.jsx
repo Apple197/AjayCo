@@ -10,18 +10,18 @@ const Accordion = () => {
   };
 
   return (
-    <div className="w-full max-w-4xl  lg:max-w-6xl mx-auto my-[5rem]">
-      <h3 className="text-3xl text-center font-bold text-black mb-6">
+    <div className="w-full max-w-4xl  lg:max-w-6xl mx-auto my-[3rem] md:my-[5rem]">
+      <h3 className="text-2xl md:text-3xl text-center font-bold text-violet-500 mb-6">
         Frequently Asked Questions
       </h3>
 
       {/* Accordion Item 1 */}
-      <div className="accordion-item border-b rounded-lg overflow-hidden mb-4">
+      <div className="accordion-item border-b rounded-lg overflow-hidden md:mb-4">
         <div
           className="accordion-header flex justify-between items-center p-4 cursor-pointer border-b border-gray-400"
           onClick={() => toggleAccordion("accordion1")}
         >
-          <h3 className="font-semibold text-xl text-gray-800">
+          <h3 className="font-semibold md:text-xl text-gray-800">
             What programming languages should I learn for web development?
           </h3>
           <svg
@@ -49,7 +49,7 @@ const Accordion = () => {
           }`}
           style={{ maxHeight: openAccordion === "accordion1" ? "300px" : "0" }}
         >
-          <p className="p-4 text-black text-base">
+          <p className="p-4 text-black text-sm md:text-base">
             To get started with web development, you should learn HTML, CSS, and
             JavaScript. For backend development, consider languages like
             Node.js, Python, Ruby, or PH
@@ -58,12 +58,12 @@ const Accordion = () => {
       </div>
 
       {/* Accordion Item 2 */}
-      <div className="accordion-item border-b rounded-lg overflow-hidden mb-4">
+      <div className="accordion-item border-b rounded-lg overflow-hidden md:mb-4">
         <div
           className="accordion-header flex justify-between items-center p-4 cursor-pointer border-b border-gray-400"
           onClick={() => toggleAccordion("accordion2")}
         >
-          <h3 className="font-semibold text-xl text-gray-800">
+          <h3 className="font-semibold text-lg md:text-xl text-gray-800">
             What is the difference between front-end and back-end development?
           </h3>
           <svg
@@ -91,7 +91,7 @@ const Accordion = () => {
           }`}
           style={{ maxHeight: openAccordion === "accordion2" ? "300px" : "0" }}
         >
-          <p className="p-4 text-black text-base">
+          <p className="p-4 text-black text-sm md:text-base">
             Front-end development refers to the visual part of a website that
             users interact with, while back-end development involves the
             server-side logic and database management that support the
@@ -101,12 +101,12 @@ const Accordion = () => {
       </div>
 
       {/* Accordion Item 3 */}
-      <div className="accordion-item border-b rounded-lg overflow-hidden mb-4">
+      <div className="accordion-item border-b rounded-lg overflow-hidden md:mb-4">
         <div
           className="accordion-header flex justify-between items-center p-4 cursor-pointer border-b border-gray-400"
           onClick={() => toggleAccordion("accordion3")}
         >
-          <h3 className="font-semibold text-xl text-gray-800">
+          <h3 className="font-semibold text-lg md:text-xl text-gray-800">
             What is a responsive web design?
           </h3>
           <svg
@@ -134,7 +134,7 @@ const Accordion = () => {
           }`}
           style={{ maxHeight: openAccordion === "accordion3" ? "300px" : "0" }}
         >
-          <p className="p-4 text-black text-base">
+          <p className="p-4 text-black text-sm md:text-base">
             Responsive web design is an approach that ensures a website looks
             good on all devices (desktops, tablets, and smartphones) by adapting
             its layout and content based on the screen size
@@ -143,12 +143,12 @@ const Accordion = () => {
       </div>
 
       {/* Accordion Item 4 */}
-      <div className="accordion-item border-b rounded-lg overflow-hidden mb-4">
+      <div className="accordion-item border-b rounded-lg overflow-hidden md:mb-4">
         <div
           className="accordion-header flex justify-between items-center p-4 cursor-pointer border-b border-gray-400"
           onClick={() => toggleAccordion("accordion4")}
         >
-          <h3 className="font-semibold text-xl text-gray-800">
+          <h3 className="font-semibold text-lg md:text-xl text-gray-800">
             What are APIs, and why are they important?
           </h3>
           <svg
@@ -176,7 +176,7 @@ const Accordion = () => {
           }`}
           style={{ maxHeight: openAccordion === "accordion4" ? "300px" : "0" }}
         >
-          <p className="p-4 text-black text-base">
+          <p className="p-4 text-black text-sm md:text-base">
             APIs (Application Programming Interfaces) allow different software
             systems to communicate with each other. They are essential for
             integrating third-party services and enabling functionality in web
@@ -186,12 +186,12 @@ const Accordion = () => {
       </div>
 
       {/* Accordion Item 5 */}
-      <div className="accordion-item border-b rounded-lg overflow-hidden mb-4">
+      <div className="accordion-item border-b rounded-lg overflow-hidden md:mb-4">
         <div
           className="accordion-header flex justify-between items-center p-4 cursor-pointer border-b border-gray-400"
           onClick={() => toggleAccordion("accordion5")}
         >
-          <h3 className="font-semibold text-xl text-gray-800">
+          <h3 className="font-semibold text-lg  md:text-xl text-gray-800">
             How can I improve my coding skills?
           </h3>
           <svg
@@ -219,7 +219,7 @@ const Accordion = () => {
           }`}
           style={{ maxHeight: openAccordion === "accordion5" ? "300px" : "0" }}
         >
-          <p className="p-4 text-black text-base">
+          <p className="p-4 text-black text-sm md:text-base">
             To improve your coding skills, practice regularly by building
             projects, participating in coding challenges, reading documentation,
             and collaborating with other developers in communities or

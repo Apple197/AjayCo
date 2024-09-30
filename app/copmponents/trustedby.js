@@ -2,23 +2,23 @@ import React from "react";
 import Link from "next/link";
 const TrustedBy = () => {
   return (
-    <div className="trustedby container  px-5  py-[7rem]  mx-auto">
+    <div className="trustedby container  px-5  py-[3rem] md:py-[7rem]  mx-auto">
       <div className="grid md:grid-cols-2 gap-10">
-        <div className="left  pr-10 ">
-          <h4 className="text-2xl  text-violet-600 font-bold">
+        <div className="left  md:pr-10 ">
+          <h4 className=" text-lg md:text-3xl md:mb-5  text-violet-600  font-semibold md:font-bold">
             Trusted Worldwide
           </h4>
-          <h2 className="text-3xl font-extrabold mt-2 mb-5  text-gray-900 tracking-tighter">
+          <h2 className="text-2xl md:text-4xl font-semibold md:font-bold  my-3  text-gray-900  ">
             Trusted by over 600 million users and 10,000 teams
           </h2>
           <p className=" text-lg   text-gray-500">
             Our rigorous security and compliance standards are at the heart of
             all we do. We work tirelessly to protect you and your customers.
           </p>
-          <div className="buttons my-5 border-t border-gray-500 py-5">
+          <div className="buttons my-5 border-t border-gray-500  lg:mt-10">
             <Link
               href="#"
-              className="flex   text-black   gap-2 py-3 rounded-md   hover:bg-violet-950-100 transition duration-300 ease-in-out w-full  cursor-pointer"
+              className="flex   text-black  lg:mt-5  gap-2 py-3 rounded-md   hover:bg-violet-950-100 transition duration-300 ease-in-out w-full  cursor-pointer"
             >
               <span className="text-violet-600">Explore Legality Guid</span>
               <img
@@ -42,7 +42,7 @@ const TrustedBy = () => {
         </div>
 
         <div className="right">
-          <div className="grid grid-cols-2 gap-6">
+          <div className="grid grid-cols-2  md:gap-6">
             <div className="card   p-4 rounded-lg ">
               <svg
                 class="w-10 h-10 mb-2 text-purple-600 md:w-12 md:h-12 dark:text-purple-500"

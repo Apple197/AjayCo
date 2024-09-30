@@ -4,17 +4,17 @@ import { FaRegCheckCircle } from "react-icons/fa";
 const toolinfo2 = () => {
   return (
     <div className="tools-section bg-custom-gray w-full">
-      <div className="container px-5 mx-auto py-10">
+      <div className="container px-5 mx-auto md:py-10">
         <div className="grid md:grid-cols-2 lg:gap-20  ">
-          <div className="left mt-5">
+          <div className="left mt-5 order-2 md:order-1">
             <img src="/assets/toolsinfo2.png" alt="Tools" />
           </div>
-          <div className="right lg:pt-16">
-            <h2 className="text-3xl text-black font-extrabold lg:text-4xl ">
+          <div className="right lg:pt-16 ">
+            <h2 className="text-3xl text-black font-bold lg:text-4xl ">
               We invest in the world’s potential
             </h2>
             <p
-              className="text-md leading-5 my-8 text-gray-400  lg:text-lg"
+              className="text-lg   my-8 text-gray-500  lg:text-lg"
               style={{ fontWeight: 300 }}
             >
               Deliver great service experiences fast - without the complexity of

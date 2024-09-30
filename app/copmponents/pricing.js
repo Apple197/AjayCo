@@ -4,7 +4,7 @@ import { FaCheck } from "react-icons/fa";
 const pricing = () => {
   return (
     <div className="pricing-section container px-4 mx-auto">
-      <div className="contant text-center mx-auto max-w-3xl">
+      <div className="contant md:text-center mx-auto max-w-3xl">
         <h2 className="text-3xl lg:text-5xl text-black font-extrabold mb-4">
           Designed for business teams like yours
         </h2>
@@ -14,9 +14,9 @@ const pricing = () => {
         </p>
       </div>
 
-      <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6 p-8 container mx-auto mt-[3rem]">
+      <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6 md:p-8 container mx-auto md:mt-[3rem]">
         {/* <!-- Basic Plan --> */}
-        <div className="cards  bg-custom-gray shadow-lg rounded-lg p-6 text-center">
+        <div className="cards  bg-custom-gray shadow-lg rounded-lg p-3 md:p-6 text-center">
           <h2 className="text-2xl  lg:text-3xl font-semibold mb-4 text-black">
             {" "}
             Starter
@@ -56,7 +56,7 @@ const pricing = () => {
           </button>
         </div>
         {/* <!-- company --> */}
-        <div className="cards  bg-custom-gray shadow-lg rounded-lg p-6 text-center">
+        <div className="cards  bg-custom-gray shadow-lg rounded-lg p-3 md:p-6 text-center">
           <h2 className="text-2xl  lg:text-3xl font-semibold mb-4 text-black">
             {" "}
             Company
@@ -97,7 +97,7 @@ const pricing = () => {
           </button>
         </div>
         {/* <!-- Enterprise --> */}
-        <div className="cards  bg-custom-gray shadow-lg rounded-lg p-6 text-center">
+        <div className="cards  bg-custom-gray shadow-lg rounded-lg p-3 md:p-6 text-center">
           <h2 className="text-2xl  lg:text-3xl font-semibold mb-4 text-black">
             {" "}
             Enterprise

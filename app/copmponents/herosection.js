@@ -8,7 +8,7 @@ const HeroSection = () => {
         <div className="md:mt-10 flex flex-col justify-center md:gap-5">
           {" "}
           {/* Centering the content vertically */}
-          <h2 className="text-4xl font-extrabold mb-5 text-black md:text-6xl">
+          <h2 className="text-4xl font-bold md:font-extrabold mb-5 text-black md:text-6xl">
             Building digital products & brands.
           </h2>
           <p className="text-black text-lg leading-6">

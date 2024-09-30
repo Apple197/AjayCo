@@ -8,11 +8,11 @@ const Tools = () => {
       <div className="container px-5 mx-auto py-10">
         <div className="grid md:grid-cols-2 lg:gap-20  ">
           <div className="left lg:pt-16">
-            <h2 className="text-3xl text-black font-extrabold lg:text-4xl ">
+            <h2 className="text-3xl text-black font-bold md:font-extrabold lg:text-4xl ">
               Work with tools you already use
             </h2>
             <p
-              className="text-md leading-5 my-8 text-gray-400  lg:text-lg"
+              className="text-lg md:text-md font-bold my-3 md:my-8 text-gray-500  lg:text-lg"
               style={{ fontWeight: 300 }}
             >
               Deliver great service experiences fast - without the complexity of
@@ -45,7 +45,7 @@ const Tools = () => {
                 <span className=" ">Knowledge management</span>
               </div>
             </div>
-            <p className="text-md  text-gray-400 my-8 lg:text-lg">
+            <p className="text-md  text-gray-500 my-8 lg:text-lg">
               Deliver great service experiences fast - without the complexity of
               traditional ITSM solutions.
             </p>
